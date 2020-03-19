@@ -41,3 +41,4 @@ elif Score >= 0:
 
 print('Het wachtwoord ' + Wachtwoord + ' heeft een score van ' + str(Score) + ' en is ' + Sterkte)
 
+
