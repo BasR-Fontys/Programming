@@ -7,4 +7,4 @@ Dit zijn de exercises:
 -Wachtwoord Generator 
 -Wachtwoord Controlle
 
-Voor het compilen van Wachtwoord Generator is module click nodig.
+Voor het compileren van Wachtwoord Generator is module click nodig.
