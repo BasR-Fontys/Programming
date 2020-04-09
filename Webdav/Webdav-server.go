@@ -34,7 +34,7 @@ func main() {
 	}
 	http.Handle("/", srv)
 	if err := http.ListenAndServe(fmt.Sprintf(":%d", *httpF), nil); err != nil {
-		log.Fatalf("De server is tegen het volgende probleem aangelopen: %v", err) //Genereerd de output met de foutmelding en sluit het programma daarna af.
+		log.Fatalf("De server is tegen het volgende probleem aangelopen: %v", err) //Kijkt of de port vrij is of dat er al een instantie draait en geeft dan een foutmelding waarna de server afgesloten wordt.
 	}
 
 }
